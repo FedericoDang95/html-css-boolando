@@ -6,25 +6,38 @@ body {
 
 .page-header {
     text-align: center;
+    font-size: x-large;
 
 }
+
+.product {}
 
 .row {
-    padding: 0 20px;
+    display: flexbox;
 }
+
+.title {
+    margin-bottom: 0;
+}
+
+.info {
+    margin-top: 0;
+    align-items: center;
+    font-weight: bold;
+
+}
+
 
 .container {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .brand {
-    justify-content: flex-start;
     font-size: 20px;
 }
 
 .name {
-    justify-content: flex-start;
     white-space: nowrap;
     font-size: 20px;
 }
