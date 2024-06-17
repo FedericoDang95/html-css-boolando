@@ -1,16 +1,16 @@
-.page-header {
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
+body {
+    margin: 0;
+    padding: 0;
 }
 
 
-.foto {
-    max-width: 100%;
-    height: auto;
-    justify-content: space-around;
+.page-header {
+    text-align: center;
 
+}
 
+.row {
+    padding: 0 20px;
 }
 
 .container {
@@ -20,13 +20,23 @@
 
 .brand {
     justify-content: flex-start;
+    font-size: 20px;
 }
 
 .name {
     justify-content: flex-start;
     white-space: nowrap;
+    font-size: 20px;
 }
+
 
 .price-red {
     color: red;
+    font-size: 20px;
+}
+
+.old-price {
+    color: black;
+    text-decoration: line-through;
+
 }
