@@ -1,0 +1,32 @@
+.page-header {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.foto {
+    max-width: 100%;
+    height: auto;
+    justify-content: space-around;
+
+
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.brand {
+    justify-content: flex-start;
+}
+
+.name {
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.price-red {
+    color: red;
+}
