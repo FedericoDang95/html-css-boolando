@@ -17,17 +17,22 @@ body {
 
 
 .container {
-    max-width: 900px;
+    width: 1232px;
+    height: 1338px;
+    display: flex;
 }
 
 .row {
-    display: grid;
+    display: flex;
     justify-content: center;
-    justify-items: start;
 }
 
 .product {
-    display: grid;
+    width: 401px;
+    height: 615px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
 }
 
 .title {
@@ -36,17 +41,20 @@ body {
 
 .brand {
     font-size: 20px;
+    margin-bottom: 0;
 }
 
 .name {
     white-space: nowrap;
     font-size: 20px;
+    margin-top: 0;
 }
 
 
 .price-red {
     color: red;
     font-size: 20px;
+    margin-top: 0;
 }
 
 .old-price {
