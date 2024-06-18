@@ -7,30 +7,31 @@ body {
 .page-header {
     text-align: center;
     font-size: x-large;
-
-}
-
-.product {}
-
-.row {
-    display: flexbox;
-}
-
-.title {
-    margin-bottom: 0;
 }
 
 .info {
     margin-top: 0;
     align-items: center;
     font-weight: bold;
-
 }
 
 
 .container {
     max-width: 900px;
-    margin: 0;
+}
+
+.row {
+    display: grid;
+    justify-content: center;
+    justify-items: start;
+}
+
+.product {
+    display: grid;
+}
+
+.title {
+    margin-bottom: 0;
 }
 
 .brand {
