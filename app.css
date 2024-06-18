@@ -1,6 +1,7 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -19,28 +20,23 @@ body {
 
 
 .container {
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
+    margin: 0 auto;
+    max-width: 1024px;
 }
 
 .row {
     display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
+    flex-wrap: wrap;
+    row-gap: 40px;
 }
 
 
 
 .product {
-    width: 401px;
-    height: 615px;
+    width: calc(100% / 3);
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
+    padding: 0 20px;
 }
 
 .product-details {
