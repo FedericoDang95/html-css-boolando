@@ -19,7 +19,7 @@ body {
 
 
 .container {
-    width: 1232px;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -73,5 +73,11 @@ body {
 .old-price {
     color: black;
     text-decoration: line-through;
+}
 
+.sub-page {
+    background-color: rgba(0, 0, 0, 0.653);
+    height: 100px;
+    color: white;
+    align-content: center;
 }
